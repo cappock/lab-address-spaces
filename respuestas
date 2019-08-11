@@ -10,13 +10,18 @@ libre era muy poco debido a que solo se tenía 2 ventanas de chrome abierta y un
 windows es bastante inesperado que con tan pocos programas abiertos el sistema tuviera en uso casi la mitad de su memoria.
 
 
-3) memory-user.c
-
 4) cuando Ejecutamos el programa se puede evidenciar que la memoria libre disminuye más o menos en la cantidad ingresada en los parámetros,
 cuando  el programa termina su ejecución la memoria regresa a su estado anterior antes de la ejecución de memory-user, para valores 
 la memoria libre baja drásticamente y se nota ralentización en la computadora, en la construcción de el código una versión al parecer
 pedía tanta memoria que bloqueaba el pc y toca reiniciarlo, también se puede notar que el programa toma un poco más de la memoria que 
 le ingresamos como parámetro, nosotros deducimos que es por el espacio de el heap y el bloque de código.
 
-5)pmap nos muestra los bloques de memoria y el espacio que cada uno ocupa dentro de un proceso determinado dado por un PID a 
+5)pmap nos muestra las posiciones de memoria y el espacio que cada uno ocupa dentro de un proceso determinado dado por un PID a 
 diferencia de free que nos da valores generales de la memoria usada, libre, swap etc....
+
+7) Al ejecutar el pmap con -x la consola nos mostrara el gasto de memoria, ell RSS y el Disty en Kilobytes, con el argumennto -d la 
+consolla nos muestra el offset y el device y con el argumento -q los datos se entregaran en bytes y no en kilobytes
+
+8)cuando se cambia la cantidad de memoria reservada en nuestro algoritmo en el pmap se puede evidenciar claramente que la memoria usada es 
+directamente proporcioonal al crecimineto de la memoria separada por nuestro memory-user, lo cual es lo esperado debido a que no tendria sentido 
+que a mas memoria pedida menos memoria usada.
