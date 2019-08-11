@@ -5,14 +5,16 @@ Respuestas
 de direccionamiento y ademas nos muestra la capacidad de memoria swap y la memoria total del sistema, ademas mandando este comando 
 con determinados argumentos toda esta informacion nos la puede dar en bytes, megabyte, gygabytes, etc...
 
-2)El computador tenia 7930 megas de memoria, de la cual 4530 megas estaban libres. Para nosotros ese espacio
-libre era muy poco debido a que solo se tenia 2 ventanas de chrome abierta y una consola, y comparando linux con 
-windows es bastante inesperado que con tan pocos programas abiertos el sistema tuviera en uso casi la mitad de su memoria
+2)El computador tenía 7930 megas de memoria, de la cual 4530 megas estaban libres. Para nosotros ese espacio 
+libre era muy poco debido a que solo se tenía 2 ventanas de chrome abierta y una consola, y comparando linux con
+windows es bastante inesperado que con tan pocos programas abiertos el sistema tuviera en uso casi la mitad de su memoria.
+
 
 3) memory-user.c
 
-4) cuando Ejecutamos el programa se puede evidenciar que la memoria libre disminuye mas o menos en la cantidad ingresada en los parametros,
-cuando  el programa termina su ejecucion la memoria regresa a su estado anterior antes de la ejecucion de memory-user, para valores 
-la memoria libre baja drasticamente y se nota realentizacion en la computadora, en la constuccion de ell codigo una vercion al parecer\
-pedia tanta memoria que bloqueaba el pc y tocaba reiniciarlo, tambien se puede notar que el programa toma un poco mas de la memoria que 
-le ingresamos como parametro, nosotros deducimos que es por el espacio de el heap y el bloque de codigo.
+4) cuando Ejecutamos el programa se puede evidenciar que la memoria libre disminuye más o menos en la cantidad ingresada en los parámetros,
+cuando  el programa termina su ejecución la memoria regresa a su estado anterior antes de la ejecución de memory-user, para valores 
+la memoria libre baja drásticamente y se nota ralentización en la computadora, en la construcción de el código una versión al parecer
+pedía tanta memoria que bloqueaba el pc y toca reiniciarlo, también se puede notar que el programa toma un poco más de la memoria que 
+le ingresamos como parámetro, nosotros deducimos que es por el espacio de el heap y el bloque de código.
+
