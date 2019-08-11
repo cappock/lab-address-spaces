@@ -18,3 +18,5 @@ la memoria libre baja drásticamente y se nota ralentización en la computadora,
 pedía tanta memoria que bloqueaba el pc y toca reiniciarlo, también se puede notar que el programa toma un poco más de la memoria que 
 le ingresamos como parámetro, nosotros deducimos que es por el espacio de el heap y el bloque de código.
 
+5)pmap nos muestra los bloques de memoria y el espacio que cada uno ocupa dentro de un proceso determinado dado por un PID a 
+diferencia de free que nos da valores generales de la memoria usada, libre, swap etc....
