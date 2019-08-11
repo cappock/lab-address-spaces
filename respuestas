@@ -1,7 +1,9 @@
 
 
 Respuestas 
-1)free nos proporciona informacion del estado de la memoria en el sistema. nos miestra la cantidad de memoria libre de el espacio
-de direccionamiento y ademas nos muestra la capacidad de memoria swap y la memoria total del sistema, ademas mandando este comando 
-con determinados argumentos toda esta informacion nos la puede dar en bytes, megabyte, gygabytes, etc...
+1)Free nos proporciona información del estado de la memoria en el sistema. nos muestra la cantidad de memoria libre del espacio
+de direccionamiento y además nos muestra la capacidad de memoria swap y la memoria total del sistema, además mandando este comando 
+con determinados argumentos toda esta información nos la puede dar en bytes, megabyte, gygabytes, etc…
+
+
 
