@@ -1,9 +1,18 @@
 
 
 Respuestas 
-1)Free nos proporciona información del estado de la memoria en el sistema. nos muestra la cantidad de memoria libre del espacio
-de direccionamiento y además nos muestra la capacidad de memoria swap y la memoria total del sistema, además mandando este comando 
-con determinados argumentos toda esta información nos la puede dar en bytes, megabyte, gygabytes, etc…
+1)free nos proporciona informacion del estado de la memoria en el sistema. nos miestra la cantidad de memoria libre de el espacio
+de direccionamiento y ademas nos muestra la capacidad de memoria swap y la memoria total del sistema, ademas mandando este comando 
+con determinados argumentos toda esta informacion nos la puede dar en bytes, megabyte, gygabytes, etc...
 
+2)El computador tenia 7930 megas de memoria, de la cual 4530 megas estaban libres. Para nosotros ese espacio
+libre era muy poco debido a que solo se tenia 2 ventanas de chrome abierta y una consola, y comparando linux con 
+windows es bastante inesperado que con tan pocos programas abiertos el sistema tuviera en uso casi la mitad de su memoria
 
+3) memory-user.c
 
+4) cuando Ejecutamos el programa se puede evidenciar que la memoria libre disminuye mas o menos en la cantidad ingresada en los parametros,
+cuando  el programa termina su ejecucion la memoria regresa a su estado anterior antes de la ejecucion de memory-user, para valores 
+la memoria libre baja drasticamente y se nota realentizacion en la computadora, en la constuccion de ell codigo una vercion al parecer\
+pedia tanta memoria que bloqueaba el pc y tocaba reiniciarlo, tambien se puede notar que el programa toma un poco mas de la memoria que 
+le ingresamos como parametro, nosotros deducimos que es por el espacio de el heap y el bloque de codigo.
