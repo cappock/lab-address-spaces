@@ -1,3 +1,9 @@
 programa 3 punto
 preguntas 1,2
 preguntas 5, 6
+
+Respuestas 
+1)free nos proporciona informacion del estado de la memoria en el sistema. nos miestra la cantidad de memoria libre de el espacio
+de direccionamiento y ademas nos muestra la capacidad de memoria swap y la memoria totall del sistema, ademas mandando este comando 
+con determinados argumentos toda esta informacion nos la puede dar en bytes megabyte gygabytes etc...
+
