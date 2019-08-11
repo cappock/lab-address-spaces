@@ -19,7 +19,7 @@ le ingresamos como parámetro, nosotros deducimos que es por el espacio de el he
 5)pmap nos muestra las posiciones de memoria y el espacio que cada uno ocupa dentro de un proceso determinado dado por un PID a 
 diferencia de free que nos da valores generales de la memoria usada, libre, swap etc....
 
-7) Al ejecutar el pmap con -x la consola nos mostrara el gasto de memoria, ell RSS y el Disty en Kilobytes, con el argumennto -d la 
+7) Al ejecutar el pmap con -x la consola nos mostrara el gasto de memoria, el RSS y el Disty en Kilobytes, con el argumennto -d la 
 consolla nos muestra el offset y el device y con el argumento -q los datos se entregaran en bytes y no en kilobytes
 
 8)cuando se cambia la cantidad de memoria reservada en nuestro algoritmo en el pmap se puede evidenciar claramente que la memoria usada es 
